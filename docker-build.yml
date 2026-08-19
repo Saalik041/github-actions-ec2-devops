@@ -20,7 +20,7 @@ jobs:
         env:
           GITLEAKS_ENABLE_COMMENTS: true
 
-    # 🧹 LINT BACKEND
+    # 🧹 LINT BACKENDs
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
